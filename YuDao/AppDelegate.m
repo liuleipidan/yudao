@@ -23,7 +23,6 @@
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
     //初始化界面
     [self ad_initUI:launchOptions];
     

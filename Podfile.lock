@@ -1,0 +1,279 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - BaiduMapKit (3.4.2)
+  - CocoaAsyncSocket (7.5.0):
+    - CocoaAsyncSocket/GCD (= 7.5.0)
+  - CocoaAsyncSocket/GCD (7.5.0)
+  - CocoaLumberjack (2.3.0):
+    - CocoaLumberjack/Default (= 2.3.0)
+    - CocoaLumberjack/Extensions (= 2.3.0)
+  - CocoaLumberjack/Core (2.3.0)
+  - CocoaLumberjack/Default (2.3.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.3.0):
+    - CocoaLumberjack/Default
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - HJCornerRadius (0.0.1)
+  - IQKeyboardManager (5.0.4)
+  - KissXML (5.1.2):
+    - KissXML/Core (= 5.1.2)
+  - KissXML/Core (5.1.2)
+  - Masonry (1.1.0)
+  - MBProgressHUD (0.9.2)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.12)
+  - MSWeakTimer (1.1.0)
+  - pop (1.0.9)
+  - SDAutoLayout (2.2.0)
+  - SDWebImage (4.1.2):
+    - SDWebImage/Core (= 4.1.2)
+  - SDWebImage/Core (4.1.2)
+  - XMPPFramework (3.7.0):
+    - XMPPFramework/All (= 3.7.0)
+  - XMPPFramework/All (3.7.0):
+    - XMPPFramework/BandwidthMonitor
+    - XMPPFramework/Core
+    - XMPPFramework/CoreDataStorage
+    - XMPPFramework/FileTransfer
+    - XMPPFramework/GoogleSharedStatus
+    - XMPPFramework/ProcessOne
+    - XMPPFramework/Reconnect
+    - XMPPFramework/Roster
+    - XMPPFramework/SystemInputActivityMonitor
+    - XMPPFramework/XEP-0009
+    - XMPPFramework/XEP-0012
+    - XMPPFramework/XEP-0016
+    - XMPPFramework/XEP-0045
+    - XMPPFramework/XEP-0054
+    - XMPPFramework/XEP-0059
+    - XMPPFramework/XEP-0060
+    - XMPPFramework/XEP-0065
+    - XMPPFramework/XEP-0066
+    - XMPPFramework/XEP-0077
+    - XMPPFramework/XEP-0082
+    - XMPPFramework/XEP-0085
+    - XMPPFramework/XEP-0092
+    - XMPPFramework/XEP-0100
+    - XMPPFramework/XEP-0106
+    - XMPPFramework/XEP-0115
+    - XMPPFramework/XEP-0136
+    - XMPPFramework/XEP-0147
+    - XMPPFramework/XEP-0153
+    - XMPPFramework/XEP-0172
+    - XMPPFramework/XEP-0184
+    - XMPPFramework/XEP-0191
+    - XMPPFramework/XEP-0198
+    - XMPPFramework/XEP-0199
+    - XMPPFramework/XEP-0202
+    - XMPPFramework/XEP-0203
+    - XMPPFramework/XEP-0223
+    - XMPPFramework/XEP-0224
+    - XMPPFramework/XEP-0280
+    - XMPPFramework/XEP-0297
+    - XMPPFramework/XEP-0308
+    - XMPPFramework/XEP-0313
+    - XMPPFramework/XEP-0333
+    - XMPPFramework/XEP-0334
+    - XMPPFramework/XEP-0335
+    - XMPPFramework/XEP-0352
+    - XMPPFramework/XEP-0357
+    - XMPPFramework/XEP-0363
+    - XMPPFramework/XMPPMUCLight
+  - XMPPFramework/BandwidthMonitor (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/Core (3.7.0):
+    - CocoaAsyncSocket (~> 7.5.0)
+    - CocoaLumberjack (~> 2.0)
+    - KissXML (~> 5.1.2)
+  - XMPPFramework/CoreDataStorage (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/FileTransfer (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/GoogleSharedStatus (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/ProcessOne (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/Reconnect (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/Roster (3.7.0):
+    - XMPPFramework/Core
+    - XMPPFramework/CoreDataStorage
+  - XMPPFramework/XEP-0009 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0012 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0016 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0045 (3.7.0):
+    - XMPPFramework/Core
+    - XMPPFramework/CoreDataStorage
+    - XMPPFramework/XEP-0203
+  - XMPPFramework/XEP-0054 (3.7.0):
+    - XMPPFramework/Core
+    - XMPPFramework/Roster
+  - XMPPFramework/XEP-0059 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0060 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0065 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0066 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0077 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0082 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0085 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0092 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0100 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0106 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0115 (3.7.0):
+    - XMPPFramework/Core
+    - XMPPFramework/CoreDataStorage
+  - XMPPFramework/XEP-0136 (3.7.0):
+    - XMPPFramework/CoreDataStorage
+    - XMPPFramework/XEP-0085
+    - XMPPFramework/XEP-0203
+  - XMPPFramework/XEP-0147 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0153 (3.7.0):
+    - XMPPFramework/Core
+    - XMPPFramework/XEP-0054
+  - XMPPFramework/XEP-0172 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0184 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0191 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0198 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0199 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0202 (3.7.0):
+    - XMPPFramework/Core
+    - XMPPFramework/XEP-0082
+  - XMPPFramework/XEP-0203 (3.7.0):
+    - XMPPFramework/Core
+    - XMPPFramework/XEP-0082
+  - XMPPFramework/XEP-0223 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0224 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0280 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0297 (3.7.0):
+    - XMPPFramework/Core
+    - XMPPFramework/XEP-0203
+  - XMPPFramework/XEP-0308 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0313 (3.7.0):
+    - XMPPFramework/Core
+    - XMPPFramework/XEP-0059
+  - XMPPFramework/XEP-0333 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0334 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0335 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0352 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0357 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XEP-0363 (3.7.0):
+    - XMPPFramework/Core
+  - XMPPFramework/XMPPMUCLight (3.7.0):
+    - XMPPFramework/Core
+    - XMPPFramework/CoreDataStorage
+    - XMPPFramework/XEP-0203
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.1.0)
+  - BaiduMapKit (~> 3.4.2)
+  - FMDB (~> 2.7.2)
+  - HJCornerRadius (from `https://github.com/panghaijiao/HJCornerRadius.git`)
+  - IQKeyboardManager (~> 5.0.4)
+  - Masonry (~> 1.1.0)
+  - MBProgressHUD (~> 0.9.2)
+  - MJExtension (~> 3.0.13)
+  - MJRefresh
+  - MSWeakTimer (~> 1.1.0)
+  - pop
+  - SDAutoLayout (~> 2.2.0)
+  - SDWebImage (~> 4.1.2)
+  - XMPPFramework (from `https://github.com/robbiehanson/XMPPFramework.git`, branch `master`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - BaiduMapKit
+    - CocoaAsyncSocket
+    - CocoaLumberjack
+    - FMDB
+    - IQKeyboardManager
+    - KissXML
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - MSWeakTimer
+    - pop
+    - SDAutoLayout
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  HJCornerRadius:
+    :git: https://github.com/panghaijiao/HJCornerRadius.git
+  XMPPFramework:
+    :branch: master
+    :git: https://github.com/robbiehanson/XMPPFramework.git
+
+CHECKOUT OPTIONS:
+  HJCornerRadius:
+    :commit: fd82fdef4407b898dd055ceeb5a5337953206914
+    :git: https://github.com/panghaijiao/HJCornerRadius.git
+  XMPPFramework:
+    :commit: d473e1bcbb622e876f7d0028f137acc6e156dee5
+    :git: https://github.com/robbiehanson/XMPPFramework.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  BaiduMapKit: f61b19ecf07a3f2deede72b221b366bf698739ed
+  CocoaAsyncSocket: 3baeb1ddd969f81cf9fca81053ae49ef2d1cbbfa
+  CocoaLumberjack: 97fab7ee5f507fe54445cca7ea80f926729cfd15
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  HJCornerRadius: 0af191386b5f2e9c4465739b5db22c0acc52923b
+  IQKeyboardManager: 1df9c0f147af1681cfb2d9977bc30309d45a7e76
+  KissXML: 246c842586bb77110e04fb88e19376d96245c856
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  MSWeakTimer: 9426150f933b80ed3acf3f6d228e4b61f0e303c8
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  SDAutoLayout: c5509e77ae75735d9a39f7bc83dba6d3f75d49d8
+  SDWebImage: cb6f9f266a9977741efcbc21e618e8be3734c774
+  XMPPFramework: 977eef5d00c20fe9fb19c30d84a89c2d5564252d
+
+PODFILE CHECKSUM: b7df8067705574358d9c078701ae9d22610b34e9
+
+COCOAPODS: 1.5.0

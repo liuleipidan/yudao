@@ -1,0 +1,129 @@
+//
+//  PrefixHeader.pch
+//  YuDao
+//
+//  Created by 汪杰 on 17/3/9.
+//  Copyright © 2017年 汪杰. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#pragma mark - # URL
+
+//用户管理类
+//#import "YDUserHelper.h" //用户数据库操作类，暂时停掉
+#import "YDUserDefault.h"
+
+//《我》UI管理类
+#import "YDMineHelper.h"
+
+//网络请求类
+#import "YDNetworking.h"
+
+//网络请求扩展独立方法
+#import "YDNetworking+Independent.h"
+
+//宏、枚举、URL宏
+#import "YDMacros.h"
+#import "YDEnumerate.h"
+#import "YDURLConfig.h"
+#import "YDNotificationNames.h"
+#import "YDServiceConfig.h"
+#import "YDShortcutMethod.h"
+
+//车辆管理类
+#import "YDCarHelper.h"
+
+//聊天
+#import "YDChatHelper.h"
+#import "YDChatConfig.h"
+#import "YDChatController.h"
+
+//推送消息
+#import "YDPushMessageManager.h"
+#import "YDPushMessageManager+Friends.h"
+#import "YDPushMessageManager+HomePage.h"
+
+//系统消息
+#import "YDSystemMessageHelper.h"
+
+//openfire管理类
+#import "YDXMPPHelper.h"
+//openfire聊天室
+#import "YDXMPPHelper+Room.h"
+
+//好友管理类
+#import "YDFriendHelper.h"
+
+//发送好友请求
+#import "YDDBSendFriendRequestStore.h"
+
+//UI工厂类
+#import "YDUIKit.h"
+
+//第三方登录、分享
+#import "YDShareManager.h"
+
+//定位单例
+#import "YDUserLocation.h"
+
+#pragma mark - 第三方库
+#import "Masonry.h"
+#import "MJExtension.h"
+#import "SDAutoLayout.h"
+
+#import "YDMBPTool.h"
+#import "YDLoadingHUD.h"
+#import "YDProgressTool.h"
+
+#import "UIImageView+WebCache.h"
+#import "UIButton+WebCache.h"
+#import "UIView+WebCache.h"
+#import "HJCornerRadius.h"
+#import "MJRefresh.h"
+#import "YDRefreshTool.h"
+
+//键盘管理
+#import <IQKeyboardManager.h>
+
+//底部弹出框
+#import "LPActionSheet.h"
+
+//分享选择弹出框
+#import "AWActionSheet.h"
+
+//UIKit扩展类
+#import "UIKit+YDCategories.h"
+
+//Foundation扩展类
+#import "Foundation+YDCategories.h"
+
+//网页控制器
+#import "YDWKWebViewController.h"
+
+#import "YDTableView.h"
+
+//导航栏控制器
+#import "YDNavigationController.h"
+
+//弹出框扩展
+#import "UIAlertController+Extension.h"
+
+//根控制器
+#import "YDRootViewController.h"
+
+//登录界面
+#import "YDLoginViewController.h"
+
+//底部弹出视图
+#import "YDSystemActionSheet.h"
+
+//权限管理类
+#import "YDPrivilegeManager.h"
+
+
+
+
+#endif /* PrefixHeader_pch */

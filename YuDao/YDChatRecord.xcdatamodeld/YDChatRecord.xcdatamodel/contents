@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15G31" minimumToolsVersion="Xcode 7.0">
+    <entity name="Friend" syncable="YES">
+        <attribute name="attribute" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="friendID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="friendName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastMessage" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="books" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="gender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="headerImageURL" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="interests" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nickName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="place" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="realName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="books" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Friend" inverseName="user" inverseEntity="Friend" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="User" positionX="-63" positionY="-18" width="126" height="178"/>
+        <element name="Friend" positionX="187" positionY="45" width="128" height="118"/>
+    </elements>
+</model>

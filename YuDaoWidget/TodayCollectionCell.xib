@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TodayCollectionCell" id="gTV-IL-0wX" customClass="TodayCollectionCell">
+            <rect key="frame" x="0.0" y="0.0" width="51" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="51" height="100"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jvd-RB-cFv">
+                        <rect key="frame" x="0.0" y="59" width="51" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="axf-u2-tRs"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pte-ST-B0U">
+                        <rect key="frame" x="0.0" y="18" width="51" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="tTR-77-sxf"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="jvd-RB-cFv" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="1Mo-ns-naJ"/>
+                <constraint firstAttribute="trailing" secondItem="Pte-ST-B0U" secondAttribute="trailing" id="2uC-Ro-3i5"/>
+                <constraint firstItem="Pte-ST-B0U" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="3gY-Pw-FUP"/>
+                <constraint firstItem="Pte-ST-B0U" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="18" id="BcM-ve-54q"/>
+                <constraint firstAttribute="bottom" secondItem="jvd-RB-cFv" secondAttribute="bottom" constant="20" id="TSY-v2-FnD"/>
+                <constraint firstAttribute="trailing" secondItem="jvd-RB-cFv" secondAttribute="trailing" id="kcN-Iq-Qab"/>
+            </constraints>
+            <size key="customSize" width="51" height="54"/>
+            <connections>
+                <outlet property="subTitleLabel" destination="jvd-RB-cFv" id="rw7-VH-rSt"/>
+                <outlet property="titleLabel" destination="Pte-ST-B0U" id="NH5-3u-nfa"/>
+            </connections>
+            <point key="canvasLocation" x="25.5" y="54"/>
+        </collectionViewCell>
+    </objects>
+</document>

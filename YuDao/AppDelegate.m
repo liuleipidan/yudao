@@ -39,8 +39,6 @@
     //键盘管理
     [self yd_initIQKeyboardManager];
     
-    
-    
     //开启AFNetworking的菊花效果
     [AFNetworkActivityIndicatorManager sharedManager].enabled = YES;
     
